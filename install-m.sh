@@ -2,7 +2,7 @@
 
 cd /root/serie-bpi-m/
 
-chnod +x temp info-bpi
+chmod +x temp info-bpi
 cp temp /usr/bin/
 cp info-bpi /usr/bin/
 #motd
