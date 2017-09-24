@@ -11,6 +11,6 @@ cd /root/serie-bpi-m/
 cp .bashrc /root/
 
 #motd
-apt install dnsutils mawk toilet figlet htop
+apt install --yes --force-yes --allow-unauthenticated dnsutils mawk toilet figlet htop
 echo `hostname -f` | toilet -f standard -F metal > /etc/motd
 cd
