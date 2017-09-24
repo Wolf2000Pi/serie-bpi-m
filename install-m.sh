@@ -8,3 +8,4 @@ cp info-bpi /usr/bin/
 #motd
 apt install dnsutils mawk toilet
 echo  BpiBerry | toilet -f standard -F metal > /etc/motd
+cd
